@@ -1,0 +1,81 @@
+
+21-10-2024 11:14:21 [localhost][info] Parent plugin start installation!
+21-10-2024 11:14:21 [localhost][info] Plugin installation: try create plugin tables.
+																	-DB Version: 0
+																	-Plugin Version in DB: 0
+																	-Current Plugin Version: 1.7.0
+21-10-2024 11:14:21 [localhost][info] Parent plugin installation complete!
+-------------------------------
+21-10-2024 11:15:29 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:15:29 [localhost][info] Try to create backup directory. Backup dir: (C:/xampp/htdocs/gala/wp-content/uploads/wio_backup)
+21-10-2024 11:15:29 [localhost][info] Try to create backup directory. Backup dir: (C:/xampp/htdocs/gala/wp-content/uploads/wio_backup/2024/10)
+21-10-2024 11:15:29 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/sierra-gypsum.jpg) to a remote server (server_1).
+21-10-2024 11:15:33 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:15:33 [localhost][debug] New queue created #1, attributes values: {"server_id":null,"object_id":"248","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":21166,"final_size":21166,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":21166,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527333}
+21-10-2024 11:15:33 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/sierra-metales.jpg) to a remote server (server_1).
+21-10-2024 11:15:34 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:15:34 [localhost][debug] New queue created #2, attributes values: {"server_id":null,"object_id":"249","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":12281,"final_size":12281,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":12281,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527334}
+21-10-2024 11:15:34 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/sierra-caladora-20V.jpg) to a remote server (server_1).
+21-10-2024 11:15:35 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:15:36 [localhost][debug] New queue created #3, attributes values: {"server_id":null,"object_id":"250","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":44831,"final_size":44831,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":44831,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527336}
+21-10-2024 11:15:36 [localhost][info] End cron job. Scope: media-library
+-------------------------------
+21-10-2024 11:19:28 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:19:28 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/sierra-circular.jpg) to a remote server (server_1).
+21-10-2024 11:19:29 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:19:30 [localhost][debug] New queue created #4, attributes values: {"server_id":null,"object_id":"251","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":55919,"final_size":55919,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":55919,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527570}
+21-10-2024 11:19:30 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/logo-gala.jpg) to a remote server (server_1).
+21-10-2024 11:19:31 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:19:32 [localhost][debug] New queue created #5, attributes values: {"server_id":null,"object_id":"252","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":15747,"final_size":15747,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":15747,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527572}
+21-10-2024 11:19:32 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-25pcs.jpg) to a remote server (server_1).
+21-10-2024 11:19:33 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:19:34 [localhost][debug] New queue created #6, attributes values: {"server_id":null,"object_id":"260","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":31280,"final_size":31280,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":31280,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527574}
+21-10-2024 11:19:34 [localhost][info] End cron job. Scope: media-library
+-------------------------------
+21-10-2024 11:24:38 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:24:38 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-29pcs.jpg) to a remote server (server_1).
+21-10-2024 11:24:40 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:24:41 [localhost][debug] New queue created #7, attributes values: {"server_id":null,"object_id":"261","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":53954,"final_size":53954,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":53954,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527881}
+21-10-2024 11:24:41 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-77pcs.jpg) to a remote server (server_1).
+21-10-2024 11:24:42 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:24:42 [localhost][debug] New queue created #8, attributes values: {"server_id":null,"object_id":"262","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":69915,"final_size":69915,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":69915,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527882}
+21-10-2024 11:24:42 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-115.jpg) to a remote server (server_1).
+21-10-2024 11:24:43 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:24:44 [localhost][debug] New queue created #9, attributes values: {"server_id":null,"object_id":"263","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":48411,"final_size":48411,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":48411,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729527884}
+21-10-2024 11:24:44 [localhost][info] End cron job. Scope: media-library
+-------------------------------
+21-10-2024 11:29:37 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:29:37 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-117pcs.jpg) to a remote server (server_1).
+21-10-2024 11:29:40 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:29:41 [localhost][debug] New queue created #10, attributes values: {"server_id":null,"object_id":"264","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":34820,"final_size":34820,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":34820,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528181}
+21-10-2024 11:29:41 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-120.jpg) to a remote server (server_1).
+21-10-2024 11:29:42 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:29:43 [localhost][debug] New queue created #11, attributes values: {"server_id":null,"object_id":"265","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":30245,"final_size":30245,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":30245,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528183}
+21-10-2024 11:29:43 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-142.jpg) to a remote server (server_1).
+21-10-2024 11:29:43 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:29:44 [localhost][debug] New queue created #12, attributes values: {"server_id":null,"object_id":"266","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":60744,"final_size":60744,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":60744,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528184}
+21-10-2024 11:29:44 [localhost][info] End cron job. Scope: media-library
+-------------------------------
+21-10-2024 11:35:20 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:35:20 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/set-herramientas-9pcs.jpg) to a remote server (server_1).
+21-10-2024 11:35:21 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:35:22 [localhost][debug] New queue created #13, attributes values: {"server_id":null,"object_id":"267","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":41338,"final_size":41338,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":41338,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528521}
+21-10-2024 11:35:22 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/taladro-inalambrico.jpg) to a remote server (server_1).
+21-10-2024 11:35:22 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:35:23 [localhost][debug] New queue created #14, attributes values: {"server_id":null,"object_id":"268","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":36978,"final_size":36978,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":36978,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528523}
+21-10-2024 11:35:23 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/taladro-rotarmartillo.jpg) to a remote server (server_1).
+21-10-2024 11:35:23 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:35:24 [localhost][debug] New queue created #15, attributes values: {"server_id":null,"object_id":"269","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":11013,"final_size":11013,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":11013,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528524}
+21-10-2024 11:35:24 [localhost][info] End cron job. Scope: media-library
+-------------------------------
+21-10-2024 11:39:30 [localhost][info] Start cron job. Scope: media-library
+21-10-2024 11:39:30 [localhost][error] Failed to get image edit via wp_get_image_editor(), error: "No se ha podido seleccionar ningún editor."
+21-10-2024 11:39:30 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/suscribe.jpg) to a remote server (server_1).
+21-10-2024 11:39:32 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:39:34 [localhost][debug] New queue created #16, attributes values: {"server_id":null,"object_id":"306","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":512396,"final_size":321918,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":512396,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528774}
+21-10-2024 11:39:34 [localhost][error] Failed to get image edit via wp_get_image_editor(), error: "No se ha podido seleccionar ningún editor."
+21-10-2024 11:39:34 [localhost][info] Preparing to upload a file (C:/xampp/htdocs/gala/wp-content/uploads/2024/10/bg_ingco.jpg) to a remote server (server_1).
+21-10-2024 11:39:35 [localhost][info] File successfully uploaded to remote server (server_1).
+21-10-2024 11:39:36 [localhost][debug] New queue created #17, attributes values: {"server_id":null,"object_id":"353","object_name":"","item_type":"attachment","item_hash":null,"item_hash_alternative":null,"result_status":"success","processing_level":"normal","is_backed_up":true,"original_size":83405,"final_size":83405,"original_mime_type":"image\/jpeg","final_mime_type":"image\/jpeg","extra_data":"{\"thumbnails_count\":0,\"original_main_size\":83405,\"class\":\"RIO_Attachment_Extra_Data\"}","created_at":1729528776}
+21-10-2024 11:39:36 [localhost][info] End cron job. Scope: media-library
+-------------------------------

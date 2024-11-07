@@ -1,0 +1,85 @@
+# BEGIN WClearfyCache
+# Modified Time: 21-10-24 11:13:46
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.localhost [NC]
+RewriteRule ^(.*)$ http\:\/\/localhost\/gala\/$1 [R=301,L]
+# Start WCLEARFY Exclude
+# End WCLEARFY Exclude
+# Start_WCLEARFY_Exclude_Admin_Cookie
+RewriteCond %{HTTP:Cookie} !wordpress_logged_in_[^\=]+\=a6On@yphnUD2kXVS
+# End_WCLEARFY_Exclude_Admin_Cookie
+RewriteCond %{HTTP_HOST} ^localhost
+RewriteCond %{HTTP_USER_AGENT} !()
+RewriteCond %{HTTP_USER_AGENT} !(WP\sFastest\sCache\sPreload(\siPhone\sMobile)?\s*Bot)
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{HTTPS} !=on
+RewriteCond %{REQUEST_URI} !(\/){2}$
+RewriteCond %{REQUEST_URI} \/$
+RewriteCond %{QUERY_STRING} !.+
+RewriteCond %{HTTP:Cookie} !comment_author_
+RewriteCond %{HTTP:Cookie} !safirmobilswitcher=mobil
+RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
+RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/all/$1/index.html -f [or]
+RewriteCond C:\xampp\htdocs\gala/wp-content/cache/all/$1/index.html -f
+RewriteRule ^(.*) "/wp-content/cache/all/$1/index.html" [L]
+</IfModule>
+<FilesMatch "index\.(html|htm)$">
+AddDefaultCharset UTF-8
+<ifModule mod_headers.c>
+FileETag None
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Mon, 29 Oct 1923 20:30:00 GMT"
+</ifModule>
+</FilesMatch>
+# END WClearfyCache
+
+# BEGIN LBCWClearfyCache
+<IfModule mod_expires.c>
+ExpiresActive on
+ExpiresDefault                              'access plus 1 month'
+ExpiresByType text/cache-manifest           'access plus 0 seconds'
+ExpiresByType text/html                     'access plus 0 seconds'
+ExpiresByType text/xml                      'access plus 0 seconds'
+ExpiresByType application/xml               'access plus 0 seconds'
+ExpiresByType application/json              'access plus 0 seconds'
+ExpiresByType application/rss+xml           'access plus 1 hour'
+ExpiresByType application/atom+xml          'access plus 1 hour'
+ExpiresByType image/x-icon                  'access plus 1 week'
+ExpiresByType image/gif                     'access plus 4 months'
+ExpiresByType image/png                     'access plus 4 months'
+ExpiresByType image/jpeg                    'access plus 4 months'
+ExpiresByType image/webp                    'access plus 4 months'
+ExpiresByType video/ogg                     'access plus 4 months'
+ExpiresByType audio/ogg                     'access plus 4 months'
+ExpiresByType video/mp4                     'access plus 4 months'
+ExpiresByType video/webm                    'access plus 4 months'
+ExpiresByType text/x-component              'access plus 1 month'
+ExpiresByType font/ttf                      'access plus 4 months'
+ExpiresByType font/otf                      'access plus 4 months'
+ExpiresByType font/woff                     'access plus 4 months'
+ExpiresByType font/woff2                    'access plus 4 months'
+ExpiresByType image/svg+xml                 'access plus 1 month'
+ExpiresByType application/vnd.ms-fontobject 'access plus 1 month'
+ExpiresByType text/css                      'access plus 1 year'
+ExpiresByType application/javascript        'access plus 1 year'
+</IfModule>
+# END LBCWClearfyCache
+# BEGIN WordPress
+# Las directivas (líneas) entre «BEGIN WordPress» y «END WordPress» son
+# generadas dinámicamente y solo deberían ser modificadas mediante filtros de WordPress.
+# Cualquier cambio en las directivas que hay entre esos marcadores serán sobrescritas.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /gala/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /gala/index.php [L]
+</IfModule>
+
+# END WordPress
